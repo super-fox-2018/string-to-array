@@ -1,9 +1,10 @@
 function strToArr(str) {
   const word = str.split(',');
   const arrOfWords = [];
-    for (let i = 0; i < word.length; i++) {
-      arrOfWords.push(word[i].split(''));
-    }
+
+  for (let i = 0; i < word.length; i++) {
+    arrOfWords.push(word[i].split(''));
+  }
   return arrOfWords;
 }
 
